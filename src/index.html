@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" media="screen" href="journal.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/journal.css"/>
     <title>Daily_Journal</title>
 </head>
 <body>
     <h1>Daily Journal</h1>
-   <form action ="">
-        <fieldset>
+   <form action ="journal_Form">
+        <fieldset class="date">
             <label for="journalDate">Date of Entry</label>
             <input type="date" name="journalDate" id="journalDate">
         </fieldset>
-        <fieldset>
+        <fieldset class="concept">
             <label for="conceptsCovered">Concepts Covered</label>
             <input type="text" name="conceptsCovered" id=conceptsCovered>
         </fieldset>
-        <fieldset>
+        <fieldset class="entry">
             <label for="journalEntry">Journal Entry</label>
             <input type="textarea" name="journalEntry" id="journalEntry">
         </fieldset> 
-        <fieldset class="moodForTheDay">
+        <fieldset class="mood">
             <label for="moodForTheDay">Mood for the Day</label>
                 <select>
                         <option value="happy">Happy</option>

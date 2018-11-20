@@ -1,0 +1,7 @@
+.date, .concept, .entry, .mood {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
